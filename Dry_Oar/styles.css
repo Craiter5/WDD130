@@ -10,6 +10,7 @@ header {
     background-color: #3db6e6;
     color: #073352;
     font-family: 'Times New Roman';
+    text-decoration: none;
     padding: 10px 0;
     text-align: center;
     border: 2px solid #073352;
@@ -28,6 +29,7 @@ nav {
     color: #fff;
     padding: 10px;
     display: flex;
+    text-decoration: none;
     justify-content: space-evenly;
     text-align: center;
     text-decoration: none;
@@ -53,7 +55,7 @@ footer {
 .white_water {
     color: #050505;
     margin: 15px; 
-    width: 100%;
+    width: 98%;
     transform: translateY(-5px);
     opacity: 0.9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
