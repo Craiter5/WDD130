@@ -32,6 +32,13 @@ nav {
     text-align: center;
     text-decoration: none;
 }
+nav a:hover {
+    background-color: #073352;
+    position: hover;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
 footer {
     background-color: #3db6e6;
     color: #fff;
