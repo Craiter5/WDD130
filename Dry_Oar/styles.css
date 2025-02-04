@@ -105,3 +105,33 @@ footer {
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.facebook {
+    display: float;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 30px;
+    position: absolute;
+    top: -2px;
+    left: -15px;
+    transform: translateY(12%);
+}
+.twitter {
+    display: float;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 30px;
+    position: absolute;
+    top: -2px;
+    left: 20px;
+    transform: translateY(12%); 
+}
+.instagram {
+    display: float;
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 30px;
+    position: absolute;
+    top: -2px;
+    left: 55px;
+    transform: translateY(12%);
+}
