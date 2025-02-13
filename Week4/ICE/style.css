@@ -1,0 +1,39 @@
+.circles {
+    width: 100%;
+
+}
+body {
+    background-color: #787777;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.desk {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #555555;
+    width: 300px;
+    position: absolute;
+    left: 10%;
+    border-width: 20px;
+
+}
+.graphic {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #555555;
+    width: 300px;
+    position: absolute;
+    left: 40%;
+    border-width: 20px;
+}
+.person {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #555555;
+    width: 300px;
+    position: absolute;
+    right: 10%;
+    border-width: 20px;
+}
