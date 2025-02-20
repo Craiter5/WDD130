@@ -43,6 +43,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #073352 ;
+    transition: 0.3s ease;
 }
 nav a:hover {
     background-color: #073352;
@@ -57,18 +58,34 @@ footer {
     padding: 10px 0;
     display:flex;
     flex-direction: column;
-    height: 110px;
     bottom: 0;
     border: 2px solid #073352;
 }
 footer a {
     text-decoration: none;
     color: #fff;
+    transition: 0.3s ease;
 }
-footer a:hover {
+.footerlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-radius: 15%;
+}
+footer .footerlinks a:hover {
     background-color: #073352;
     color: #fff;
     text-align: center;
+}
+footer img{
+    transition: o.3s ease;
+}
+
+footer img:hover {
+    box-shadow: 3px 3px 3px 3px rgba(7, 51, 82, 0.277);
 }
 .white_water {
     color: #050505;
@@ -80,7 +97,8 @@ footer a:hover {
 }
 .rapids {
     color: #050505;
-    margin: 1px;
+    margin-bottom: 15px;
+    margin-right: 45px;
     width: 60%;
     transform: translateY(190px);
     transform: translateX(580px);
@@ -125,25 +143,8 @@ footer a:hover {
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.facebook, .twitter, .instagram {
-    display: float;
-    margin-left: 20px;
-    margin-top: 5px;
+
+ .socials img {
     width: 40px;
-    position: absolute;
-    bottom: -706px;
-    transform: translateY(12%);
     border-radius: 15%;
-}
-
-.facebook {
-    left: 0px;
-}
-
-.twitter {
-    left: 50px;
-}
-
-.instagram {
-    left: 100px;
-}
+ }
